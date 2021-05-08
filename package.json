@@ -1,0 +1,23 @@
+{
+  "name": "hapi_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "Proxy":"localhost:5000",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "hapi-plugin-pg": "^1.1.2",
+    "inert": "^5.1.3",
+    "joi": "^17.4.0",
+    "knex": "^0.95.4",
+    "mime-db": "^1.47.0",
+    "pg": "^8.6.0",
+    "vision": "^5.4.4"
+  }
+}
